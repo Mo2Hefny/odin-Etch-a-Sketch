@@ -20,13 +20,13 @@
     <main class="main">
       <div class="controls">
         <input type="color" value="#000000" class="color-wheel" />
-        <button id="chosen-color">Chosen Color</button>
+        <button id="selected-color" class="active">Selected Color</button>
         <button id="random-color">Random Color</button>
         <button id="erase-color">Erase</button>
         <button id="clear-grid">Clear</button>
-        <h3 class="grid-size">16 x 16</h3>
+        <h3 class="grid-size"></h3>
         <input type="range" id="grid-slider" value="16" min="1" max="64" />
-        <button id="toggle-borders">Toggle Borders</button>
+        <button id="toggle-borders" class="active">Toggle Borders</button>
       </div>
       <grid class="grid"></grid>
       <script src="./js/script.js"></script>
