@@ -2,7 +2,7 @@
 
 This is a browser-based sketching app that mimics the classic toy Etch-a-Sketch. You can use your mouse to draw on a grid of squares and change the color and size of your sketch. You can also erase your drawing and start over with a blank canvas.
 
-This project was built with HTML, CSS, and JavaScript. It used the following web development tools:
+This project was built with HTML, CSS, and JavaScript.
 ## Features
 
 - A 16x16 grid of square divs that change color when you click on them.
